@@ -1,0 +1,18 @@
+# Power BI temp / lock / backup files
+~$*.pbix
+*.pbix.bak
+*.pbix.tmp
+
+# Credentials / secrets — never commit real keys
+*.env
+.env
+credentials.json
+secrets.json
+apikey.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
